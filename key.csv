@@ -1,0 +1,81 @@
+,Column,Key
+0,source_visitor_id,unique identifier for visitor
+1,visit_num,visit number of the visitor
+2,First_Visit,flag for a first time visitor to the site
+3,date,date of visit
+4,min_timestamp_date,date when visit started
+5,min_timestamp_time,timestamp when visit started
+6,max_timestamp,timestamp when visit ended
+7,Recipe,test recipe visit was assigned
+8,purchase_flag,flag if a purchase was completed during visit
+9,no_thanks_flag,flag if a visitor selected no thanks on upgrade popup
+10,yes_upgrade_flag,flag if visitor selected yes on upgrade popup
+11,upgrade_and_purchase,flag if visitor selected yes on upgrade popup AND purchased
+12,hit either yes or no,"Responded to the popup by saying ""yes"" or ""no"" rather than exiting"
+13,purchase_product_1,first product purchased (null if no purchase)
+14,purchase_product_2,second product purchased (null if > 2 products purchased)
+15,purchase_product_3,third product purchased (null if > 3 products purchased)
+16,purchase_product_4,fourth product purchased (null if > 4 products purchased)
+17,purchase_units_product_1,# of units purchased of first product (purchase_product_1)
+18,purchase_units_product_2,# of units purchased of second product (purchase_product_2)
+19,purchase_units_product_3,# of units purchased of third product (purchase_product_3)
+20,purchase_units_product_4,# of units purchased of fourth product (purchase_product_4)
+21,purchase_revenue_product_1,revenue from first product (purchase_product_1)
+22,purchase_revenue_product_2,revenue from second product (purchase_product_2)
+23,purchase_revenue_product_3,revenue from third product (purchase_product_3)
+24,purchase_revenue_product_4,revenue from fourth product (purchase_product_4)
+25,IPD vs NonIPD,IPD = In product app
+26,IPD,"If IPD exists, then 1"
+27,operating_system_family,operating system
+28,browser_family,browser
+29,user_State,state (based on visitors IP)
+30,camp_page_flag,flag if visitor saw camp page during visit
+31,hiking__page_flag,flag if visitor saw hiking page during visit
+32,kayak_page_flag,flag if visitor saw kayak page during visit
+33,run_page_flag,flag if visitor saw run page during visit
+34,deals_page_flag,flag if visitor saw deals page during visit
+35,winter_page_flag,flag if visitor saw winter page during visit
+36,snow_page_flag,flag if visitor saw snow page during visit
+37,socks+hiking_flag,flag is visitor checked box for socks cross sell on hiking page
+38,login_page_flag,flag if visitor saw login page during visit
+39,review_order_flag,flag if visitor got to the review order page during visit
+40,pageviews_before_popup,# of pages visitor saw in visit before upgrade popup appeared
+41,date,date of visit
+42,upsell_timestamp_date,date visitor saw upsell popup
+43,upsell_timestamp_time,timestamp visitor saw upsell popup
+44,time_before_popup,visit time before visitor saw upsell popup
+45,hits_before_popup,# of hits visitor saw in visit before upgrade popup appeared
+46,OpS_Android,flag for Andorid Operating System
+47,OpS_Chrome_OS,flag for Chrome Operating System
+48,OpS_iOS,flag for iOS Operating System
+49,OpS_Linux,flag for Linux Operating System
+50,OpS_Mac OS X,flag for Mac Operating System
+51,OpS_Ubuntu,flag for Ubuntu Operating System
+52,OpS_Windows 10,flag for Windows 10 Operating System
+53,OpS_Windows_7,flag for Windows 7 Operating System
+54,OpS_Windows8,flag for Windows 8 Operating System
+55,OpS_Windows_8.1,flag for Windows 8.1 Operating System
+56,OpS_Windows_Vista,flag for Windows Vista Operating System
+57,OpS_Windows_XP,flag for Windows XP Operating System
+58,Test,flag if visit was in the test
+59,AOL_Browser,flag for AOL browser
+60,AppleMail_Browser,flag for AppleMail browser
+61,Chrome_Browser,flag for Chrome browser
+62,Chrome_Mobile_Browser,flag for Chrome browser on mobile device
+63,Chrome_Mobile_iOS_Browser,flag for Chrome browser on mobile iOS device
+64,Edge_Browser,flag for Edge browser
+65,Firefox_Browser,flag for Firefox browser
+66,IE_Browser,flag for IE browser
+67,Mobile_Safari_Browser,flag for Safari browser on a mobile device
+68,Opera_Browser,flag for Opera browser
+69,Other_Browser,"flag for ""Other"" browser (not listed as a separate browser flag in this data set)"
+70,Safari_Browser,flag for Safari browser 
+71,SeaMonkey_Browser,flag for Sea Monkey browser
+72,Test2,sequence of test
+73,landpage-hiking,flag if visits first page was hiking page
+74,landpage camping,flag if visits first page was camping page
+75,landpage run,flag if visits first page was run page
+76,loyalty_user,flag if visitor is a loyalty user
+77,landpage winter,flag if visits' first page was winter page
+78,SEO,flag if visit came through SEO
+79,SEM,flag if visit came through SEM
